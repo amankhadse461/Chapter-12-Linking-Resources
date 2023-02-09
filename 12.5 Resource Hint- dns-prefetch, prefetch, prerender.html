@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="prefetch" href="style.css">
+    <title>Resource Hint:dns-prefetch, prefetch, prerender</title>
+</head>
+<body>
+<!-- Preconnect
+The preconnect relationship is similar to dns-prefetch in that it will resolve the DNS. However, it will also make the
+TCP handshake, and optional TLS negotiation. This is an experimental feature.
+<link rel="preconnect" href="URL">
+<!- DNS-Prefetch -->
+<!-- Informs browsers to resolve the DNS for a URL, so that all assets from that URL load faster.
+<link rel="dns-prefetch" href="URL">
+DNS-Prefetch resolves only the domain name whereas prefetch downloads/stores the specified resources. -->
+<!-- Prerender -->
+<!-- Informs browsers to fetch and render the URL in the background, so that they can be delivered to the user
+instantaneously as the user navigates to that URL. This is an experimental feature.
+<link rel="prerender" href="URL"> -->
+<p>Prefetch
+Informs the browsers that a given resource should be prefetched so it can be loaded more quickly./<p>
+<div class="aman">hey</div>
+</body>
+</html>

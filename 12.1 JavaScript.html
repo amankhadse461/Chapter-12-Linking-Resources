@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+   
+     
+</body>
+ <!-- Synchronous -->
+    <script src="example.js"></script>
+    <!-- Standard practice is to place JavaScript <script> tags just before the closing </body> tag. Loading your scripts last
+allows your site's visuals to show up more quickly and discourages your JavaScript from trying to interact with
+elements that haven't loaded yet. -->
+
+<!-- Asynchronous -->
+<script src="examle.js" async></script>
+<!-- when the Javascript code being loaded is not necessary for page initialization, it can be loaded
+asynchronously, speeding up the page load. Using async the browser will load the contents of the script in parallel
+and, once it is fully downloaded, will interrupt the HTML parsing in order to parse the Javascript file. -->
+
+<!-- Deferred -->
+<script src="example.js" defer></script>
+<!-- Deferred scripts are like async scripts, with the exception that the parsing will only be performed once the HTML is
+fully parsed. Deferred scripts are guaranteed to be loaded in the order of declaration, same way as synchronous
+scripts. -->
+
+<!-- noscript -->
+<noscript>JavaScript disabled</noscript>
+
+<!-- The <noscript> element defines content to be displayed if the user has scripts disabled or if the browser does not
+support using scripts. The <noscript> tag can be placed in either the <head> or the <body>. -->
+
+</html>
